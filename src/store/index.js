@@ -1,12 +1,7 @@
 import { createStore } from 'vuex'
-
+import quizzModule from '../modules/quizz/store/quizz'
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    quizzModule
   }
 })
